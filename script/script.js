@@ -5,10 +5,14 @@ let num = 266219;
 
 num = num.toString().split('');
 
-num = num.reduce(multiplication);
+let numMul = num.reduce(multiplication);
 
-num **= 3;
+console.log(numMul);
 
-num = String(num);
+numMul **= 3;
 
-console.log(num.substring(0, 2));
+numMul = String(numMul);
+
+let twoNum = numMul.substring(0, 2);
+
+console.log(twoNum);
