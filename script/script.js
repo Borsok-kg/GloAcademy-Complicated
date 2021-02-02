@@ -19,7 +19,7 @@ console.log(twoNum);
 
 // Lesson03
 
-let lang = 'ru',
+let lang = 'en',
     daysWeek = [
           ['Понедельник', 'вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'],
           ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
@@ -39,9 +39,9 @@ switch (lang) {
         console.log(daysWeek[1]);
 }
 
-let command = length === 'en' ? console.log(daysWeek[1]) : console.log(daysWeek[0]);
+lang === 'en' ? console.log(daysWeek[1]) : console.log(daysWeek[0]);
 
 let namePerson = 'Артем';
 
-namePerson === 'Артем' ? console.log('директор') : console.log('студент');
-namePerson === 'Максим' ? console.log('преподаватель') : console.log('студент');
+console.log((namePerson === 'Артем') ? 'директор' : 'студент' && (namePerson === 'Максим') ? 'преподаватель' : 'студент');
+
