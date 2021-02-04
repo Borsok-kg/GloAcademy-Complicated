@@ -45,3 +45,15 @@ let namePerson = 'Артем';
 
 console.log((namePerson === 'Артем' ? 'директор' : namePerson === 'Максим' ? 'преподаватель' : 'студент'));
 
+// Lesson04
+function stringFunction (i) {
+    if (i === Number(i)) {
+        console.log('Число не допустимо');
+    } else {
+        console.log( i = i.trim().slice(0, 30) + '...');
+    }
+
+   
+}
+
+stringFunction('   123456789101234567891012345678910   ');
