@@ -43,5 +43,5 @@ lang === 'en' ? console.log(daysWeek[1]) : console.log(daysWeek[0]);
 
 let namePerson = 'Артем';
 
-console.log((namePerson === 'Артем') ? 'директор' : 'студент' && (namePerson === 'Максим') ? 'преподаватель' : 'студент');
+console.log((namePerson === 'Артем' ? 'директор' : namePerson === 'Максим' ? 'преподаватель' : 'студент'));
 
