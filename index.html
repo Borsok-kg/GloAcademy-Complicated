@@ -8,20 +8,35 @@
 <body>
     
     <style>
-        .bold {
-            font-weight: 700;
+        body {
+            margin: 0;
         }
-        .italic {
-            font-style: italic;
+        .wrapper {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            transition: all 0.5s ease-in-out;
+        }
+        h1 {
+            color: black;
+        }
+        button {
+            padding: 20px;
         }
     </style>
 
-    <div id="days_a"></div>
-    <br>
-    <br>
-    <div id="days_b"></div>
+    <div class="wrapper">
+        <h1 id="color">#fffff</h1>
+        <button id="change">New Color</button>
+    </div>
+
     <!-- <script src="script/lesson05.js"></script> -->
     <!-- <script src="script/lesson07.js"></script> -->
-    <script src="script/lesson09.js"></script> 
+    <!-- <script src="script/lesson09.js"></script>  -->
+    <script src="script/lesson13.js"></script>
 </body>
 </html>
